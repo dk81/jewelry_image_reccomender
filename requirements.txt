@@ -4,8 +4,6 @@ astor==0.8.1
 certifi==2018.1.18
 chardet==3.0.4
 Click==7.0
-cupshelpers==1.0
-cycler==0.10.0
 decorator==4.4.1
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1
