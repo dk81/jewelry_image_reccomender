@@ -54,8 +54,8 @@
                 image: base64Image
             }
             //console.log(message);
-            //var site = 'https://jewelry-classifier.herokuapp.com/';
-            var site = 'http://localhost:5000'
+            var site = 'https://jewelry-classifier.herokuapp.com/';
+            //var site = 'http://localhost:5000'
 
             $.post(site + '/predict', JSON.stringify(message), function(data){
                 $("#model-pred").html(data)
